@@ -1,0 +1,153 @@
+[
+  {
+    "name": "fermat_factor",
+    "doc": "§2.1.1 – p, q quá gần nhau.",
+    "ms": 0.004,
+    "result": {
+      "n": 1022117,
+      "p": 1009,
+      "q": 1013
+    }
+  },
+  {
+    "name": "shared_factor",
+    "doc": "§3.1 – hai modulo dùng chung một số nguyên tố.",
+    "ms": 0.002,
+    "result": {
+      "n1": 11413,
+      "n2": 12827,
+      "p": 101
+    }
+  },
+  {
+    "name": "common_modulus",
+    "doc": "§3.2 – cùng n, hai số mũ e1, e2 nguyên tố cùng nhau.",
+    "ms": 0.004,
+    "result": {
+      "c1": 36,
+      "c2": 15,
+      "recovered": 42
+    }
+  },
+  {
+    "name": "hastad_broadcast",
+    "doc": "§3.3 – e = 3, cùng bản tin gửi cho ba người, không đệm.",
+    "ms": 0.018,
+    "result": {
+      "ciphertexts": [
+        3,
+        189,
+        370
+      ],
+      "crt": 74088,
+      "recovered": 42
+    }
+  },
+  {
+    "name": "wiener",
+    "doc": "§3.4 – d nhỏ, khôi phục bằng liên phân số của e/n.",
+    "ms": 0.006,
+    "result": {
+      "d": 5,
+      "p": 379,
+      "q": 239
+    }
+  },
+  {
+    "name": "textbook_rsa_cca",
+    "doc": "§3.5 – tính đồng cấu: hỏi oracle giải mã c·r^e thay cho c.",
+    "ms": 0.012,
+    "result": {
+      "c": 11,
+      "c_star": 99,
+      "oracle": 176,
+      "recovered": 88
+    }
+  },
+  {
+    "name": "crt_fault",
+    "doc": "§6.3 – một chữ ký CRT bị lỗi ở nửa mod q làm lộ p.",
+    "ms": 0.007,
+    "result": {
+      "faulty_signature": 118,
+      "leaked_factor": 17
+    }
+  },
+  {
+    "name": "pohlig_hellman",
+    "doc": "§2.2.1 – cấp nhóm 70 = 2·5·7 toàn ước nhỏ.",
+    "ms": 0.016,
+    "result": {
+      "residues": [
+        1,
+        0,
+        5
+      ],
+      "x": 5
+    }
+  },
+  {
+    "name": "small_subgroup",
+    "doc": "§4.2 – nạn nhân không kiểm tra khóa công khai nhận được.",
+    "ms": 0.011,
+    "result": {
+      "leaks": {
+        "2": 1,
+        "5": 0,
+        "7": 5
+      },
+      "x": 5
+    }
+  },
+  {
+    "name": "dh_mitm",
+    "doc": "§4.1 – Mallory thay Y_A, Y_B bằng Y_M.",
+    "ms": 0.008,
+    "result": {
+      "alice_key": 26,
+      "bob_key": 12,
+      "honest_key": 30
+    }
+  },
+  {
+    "name": "elgamal_k_reuse",
+    "doc": "§4.4 – hai bản tin cùng k: biết m1 suy ra m2.",
+    "ms": 0.006,
+    "result": {
+      "ct1": [
+        4,
+        32
+      ],
+      "ct2": [
+        4,
+        67
+      ],
+      "recovered": 33
+    }
+  },
+  {
+    "name": "ecdsa_nonce_reuse",
+    "doc": "§5.1 – hai chữ ký ECDSA cùng k làm lộ khóa riêng.",
+    "ms": 0.034,
+    "result": {
+      "r": 7,
+      "s1": 17,
+      "s2": 14,
+      "k": 10,
+      "d": 7
+    }
+  },
+  {
+    "name": "invalid_curve",
+    "doc": "§5.3 – nạn nhân bỏ qua kiểm tra điểm; công thức cộng điểm không dùng b.",
+    "ms": 0.714,
+    "result": {
+      "residues": {
+        "2": 1,
+        "3": 1,
+        "5": 2
+      },
+      "d": 7
+    }
+  }
+]

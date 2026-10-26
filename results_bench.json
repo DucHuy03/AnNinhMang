@@ -1,0 +1,467 @@
+{
+  "env": {
+    "cpu": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+    "os": "Windows-11-10.0.22621-SP0",
+    "python": "3.12.10",
+    "cryptography": "46.0.5",
+    "openssl": "OpenSSL 3.5.5 27 Jan 2026"
+  },
+  "results": [
+    {
+      "system": "RSA",
+      "variant": "RSA-2048",
+      "level": 112,
+      "op": "sinh khóa",
+      "us": 42665.40000025998,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-2048",
+      "level": 112,
+      "op": "ký (PSS)",
+      "us": 844.3453125011047,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-2048",
+      "level": 112,
+      "op": "kiểm tra (PSS)",
+      "us": 47.7130859373176,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-2048",
+      "level": 112,
+      "op": "mã hóa (OAEP)",
+      "us": 38.79560546860006,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-2048",
+      "level": 112,
+      "op": "giải mã (OAEP)",
+      "us": 691.018750003991,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-3072",
+      "level": 128,
+      "op": "sinh khóa",
+      "us": 134775.99999987433,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-3072",
+      "level": 128,
+      "op": "ký (PSS)",
+      "us": 2168.3625000008533,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-3072",
+      "level": 128,
+      "op": "kiểm tra (PSS)",
+      "us": 64.88720703101691,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-3072",
+      "level": 128,
+      "op": "mã hóa (OAEP)",
+      "us": 131.30800781269159,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-3072",
+      "level": 128,
+      "op": "giải mã (OAEP)",
+      "us": 2079.449999996541,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-4096",
+      "level": 152,
+      "op": "sinh khóa",
+      "us": 792663.2999997309,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-4096",
+      "level": 152,
+      "op": "ký (PSS)",
+      "us": 4849.737499966977,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-4096",
+      "level": 152,
+      "op": "kiểm tra (PSS)",
+      "us": 100.46191406232197,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-4096",
+      "level": 152,
+      "op": "mã hóa (OAEP)",
+      "us": 97.59550781218707,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-4096",
+      "level": 152,
+      "op": "giải mã (OAEP)",
+      "us": 4695.206249976991,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "DSA-2048",
+      "level": 112,
+      "op": "sinh khóa",
+      "us": 637.8406249964996,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "DSA-2048",
+      "level": 112,
+      "op": "ký",
+      "us": 470.20468749892075,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "DSA-2048",
+      "level": 112,
+      "op": "kiểm tra",
+      "us": 423.7093749992482,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "DHE-2048",
+      "level": 112,
+      "op": "thỏa thuận khóa",
+      "us": 632.410937498662,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "ElGamal-2048",
+      "level": 112,
+      "op": "mã hóa",
+      "us": 6620.512499978304,
+      "impl": "Python int"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "ElGamal-2048",
+      "level": 112,
+      "op": "giải mã",
+      "us": 3825.6812499923853,
+      "impl": "Python int"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "DSA-3072",
+      "level": 128,
+      "op": "sinh khóa",
+      "us": 1528.3906249976553,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "DSA-3072",
+      "level": 128,
+      "op": "ký",
+      "us": 961.020312495009,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "DSA-3072",
+      "level": 128,
+      "op": "kiểm tra",
+      "us": 843.462500000669,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "ElGamal-3072",
+      "level": 128,
+      "op": "mã hóa",
+      "us": 16028.750000032232,
+      "impl": "Python int"
+    },
+    {
+      "system": "ElGamal",
+      "variant": "ElGamal-3072",
+      "level": 128,
+      "op": "giải mã",
+      "us": 10353.624999993372,
+      "impl": "Python int"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-256",
+      "level": 128,
+      "op": "sinh khóa",
+      "us": 39.1116210938236,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-256",
+      "level": 128,
+      "op": "ký (ECDSA)",
+      "us": 52.06435546911692,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-256",
+      "level": 128,
+      "op": "kiểm tra (ECDSA)",
+      "us": 152.29257812521269,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-256",
+      "level": 128,
+      "op": "thỏa thuận khóa",
+      "us": 77.85957031281043,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-384",
+      "level": 192,
+      "op": "sinh khóa",
+      "us": 1247.225000000185,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-384",
+      "level": 192,
+      "op": "ký (ECDSA)",
+      "us": 1347.659374999921,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-384",
+      "level": 192,
+      "op": "kiểm tra (ECDSA)",
+      "us": 1196.1749999898075,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-384",
+      "level": 192,
+      "op": "thỏa thuận khóa",
+      "us": 1377.8125000385444,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-521",
+      "level": 256,
+      "op": "sinh khóa",
+      "us": 2752.9437499822507,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-521",
+      "level": 256,
+      "op": "ký (ECDSA)",
+      "us": 2762.887500011857,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-521",
+      "level": 256,
+      "op": "kiểm tra (ECDSA)",
+      "us": 2398.61874999292,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-521",
+      "level": 256,
+      "op": "thỏa thuận khóa",
+      "us": 3121.0562499950356,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "Ed25519",
+      "level": 128,
+      "op": "sinh khóa",
+      "us": 51.44951171898171,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "Ed25519",
+      "level": 128,
+      "op": "ký",
+      "us": 52.789550780918404,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "Ed25519",
+      "level": 128,
+      "op": "kiểm tra",
+      "us": 142.50507812541002,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "Ed448",
+      "level": 224,
+      "op": "sinh khóa",
+      "us": 520.4968749978889,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "Ed448",
+      "level": 224,
+      "op": "ký",
+      "us": 506.69453124996267,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "Ed448",
+      "level": 224,
+      "op": "kiểm tra",
+      "us": 779.5234375009841,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "X25519",
+      "level": 128,
+      "op": "thỏa thuận khóa",
+      "us": 54.158007812610265,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "ECC",
+      "variant": "X448",
+      "level": 224,
+      "op": "thỏa thuận khóa",
+      "us": 689.5234374937331,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-3072",
+      "level": 128,
+      "op": "giải mã (CRT)",
+      "us": 28875.84999984938,
+      "impl": "pkc_lab"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-3072",
+      "level": 128,
+      "op": "giải mã (không CRT)",
+      "us": 93438.29999988884,
+      "impl": "pkc_lab"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-3072",
+      "level": 128,
+      "op": "mã hóa",
+      "us": 223.56328125106018,
+      "impl": "pkc_lab"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-256",
+      "level": 128,
+      "op": "ký (ECDSA)",
+      "us": 29346.199999963574,
+      "impl": "pkc_lab"
+    },
+    {
+      "system": "ECC",
+      "variant": "P-256",
+      "level": 128,
+      "op": "kiểm tra (ECDSA)",
+      "us": 59226.80000003311,
+      "impl": "pkc_lab"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-7680",
+      "level": 192,
+      "op": "sinh khóa (1 lần)",
+      "us": 7601944.700000331,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-7680",
+      "level": 192,
+      "op": "ký (PSS)",
+      "us": 39574.6250000002,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-7680",
+      "level": 192,
+      "op": "kiểm tra (PSS)",
+      "us": 419.81835937399126,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-15360",
+      "level": 256,
+      "op": "sinh khóa (1 lần)",
+      "us": 80264787.80000025,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-15360",
+      "level": 256,
+      "op": "ký (PSS)",
+      "us": 190591.7999999929,
+      "impl": "OpenSSL"
+    },
+    {
+      "system": "RSA",
+      "variant": "RSA-15360",
+      "level": 256,
+      "op": "kiểm tra (PSS)",
+      "us": 1222.3984374983843,
+      "impl": "OpenSSL"
+    }
+  ]
+}
