@@ -1,6 +1,9 @@
-# pkc_lab – Mã nguồn thực nghiệm cho tiểu luận "Các hệ mật khóa công khai: RSA, ElGamal và ECC"
+# AnNinhMang – Các hệ mật khóa công khai: RSA, ElGamal, ECC và Diffie–Hellman
 
-Học viên: Nguyễn Đức Huy – 20261238M – Môn An ninh mạng.
+Project môn An ninh mạng – Đại học Bách khoa Hà Nội (HUST).  
+Học viên: Nguyễn Đức Huy – 20261238M.
+
+Gói `pkc_lab` là mã nguồn thực nghiệm của project.
 
 Mã nguồn phục vụ Phần 4 của báo cáo, gồm ba mục đích:
 
